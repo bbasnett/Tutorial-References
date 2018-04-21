@@ -39,7 +39,7 @@ fooPromise("one")
     console.log(result);
   });
 
-// Nesting then functions
+// Sequencing output using nested functions
 one.then(data => {
   console.log(data);
   two.then(result => {
